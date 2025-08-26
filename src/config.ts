@@ -21,13 +21,13 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "绯梦霞间",
+	subtitle: "Snowflake Blog",
 
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 210, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 345, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 	translate: {
@@ -40,7 +40,7 @@ export const siteConfig: SiteConfig = {
 		ignoreTags: ["script", "style", "code", "pre"], // 翻译时忽略的 HTML 标签
 	},
 	banner: {
-		enable: true, // 是否启动Banner壁纸模式
+		enable: false, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
@@ -155,19 +155,19 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/wosnxn123",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/367174128",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
 				{
 					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					url: "https://gitee.com/wosnxn123",
 					external: true,
 					icon: "mdi:git",
 				},
@@ -212,23 +212,33 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
-	bio: "这是一个描述",
+	name: "绯梦雪Snowflake",
+	bio: "一个漂浮在幻想之海的孤独岛屿。这里没有喧嚣，只有风的声音和星辰的低语。我在这里记录梦的残骸，描绘不存在的风景，分享触动灵魂的旋律与故事。",
 	links: [
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/367174128",
 		},
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://gitee.com/wosnxn123",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/wosnxn123",
+		},
+		{
+            name: 'QQ',
+            icon: 'fa6-brands:qq',
+            url: 'https://qm.qq.com/q/fPoOWUj6J',
+            },
+       {
+            name: 'Email',
+            icon: 'fa6-solid:envelope',
+            url: 'mailto:3467220367@qq.com',
 		},
 	],
 	// Umami统计部份，记得在layout插入Umami的head标签
