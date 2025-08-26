@@ -211,7 +211,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar2.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "绯梦雪Snowflake",
 	bio: "一个漂浮在幻想之海的孤独岛屿。这里没有喧嚣，只有风的声音和星辰的低语。我在这里记录梦的残骸，描绘不存在的风景，分享触动灵魂的旋律与故事。",
 	links: [
