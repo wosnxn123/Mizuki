@@ -1,6 +1,6 @@
 # 关于本站
 
-本网站由 **Astro** 框架强力驱动，并使用了Mizuki 主题 [Mizuki](https://github.com/matsuzaka-yuki/mizuki)进行构建。
+本网站由 **Astro** 框架强力驱动，并使用了Mizuki 主题 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 进行构建。
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
 

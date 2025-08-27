@@ -9,7 +9,8 @@ draft: false
 tags: ['初见', '开篇', '幻想', '随笔']
 category: "序章"
 author: "绯梦雪 Snowflake"
-licenseName: "CC BY-SA-4.0"
+licenseName: "CC BY-NC-SA 4.0"
+licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 image: 'https://t.alcy.cc/moez'
 ---
 
