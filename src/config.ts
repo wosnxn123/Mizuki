@@ -154,6 +154,11 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
+					name: "umami",
+					url: "https://cloud.umami.is/share/zLM8tL3fGkmgbX1q/blog.raindew.576555.xyz",
+					external: true,
+				},
+				{
 					name: "GitHub",
 					url: "https://github.com/wosnxn123",
 					external: true,
@@ -243,8 +248,8 @@ export const profileConfig: ProfileConfig = {
 	],
 	// Umami统计部份，记得在layout插入Umami的head标签
 	umami: {
-		enable: false, // 是否显示umami统计
-		shareId: "", //填入共享URL最后面那一串  比如：https://eu.umami.is/api/share/2dKQ5T0WrUn6AYtr 你就填入2dKQ5T0WrUn6AYtr
+		enable: true, // 是否显示umami统计
+		shareId: "zLM8tL3fGkmgbX1q", //填入共享URL最后面那一串  比如：https://eu.umami.is/api/share/2dKQ5T0WrUn6AYtr 你就填入2dKQ5T0WrUn6AYtr
 		region: "eu", //Umami有两个区域，按需选择即可  比如：https://eu.umami.is 你就填入eu
 	},
 };
@@ -262,9 +267,9 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://twikoo.vercel.app",
+		envId: "https://twikoo.raindew.576555.xyz",
 	},
 };
 
