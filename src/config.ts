@@ -72,14 +72,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Mizuki", // 主页横幅主标题
+			title: "Beautiful Mizuki!", // 主页横幅主标题
 
 			subtitle: [
-				"One demo website",
-				"Carousel Text1",
-				"Carousel Text2",
-				"Carousel Text3",
-			], // 主页横幅副标题，支持多文本
+				"A Showcase Demo Site",
+				"Carousel Highlight: Innovation",
+				"Carousel Focus: User Experience",
+				"Carousel Spot: Core Advantages",
+			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
@@ -182,7 +182,15 @@ export const navBarConfig: NavBarConfig = {
 			name: "我的",
 			url: "/content/",
 			icon: "material-symbols:person",
-			children: [LinkPreset.Anime, LinkPreset.Diary, LinkPreset.Gallery],
+			children: [
+				LinkPreset.Anime,
+				LinkPreset.Diary,
+				{
+					name: "相册",
+					url: "/albums/",
+					icon: "material-symbols:photo-library",
+				},
+			],
 		},
 		{
 			name: "关于",
