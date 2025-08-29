@@ -3,6 +3,7 @@ title: "Mizuki 主题更新日志"
 pubDate: "2024-08-29"
 description: "将 Mizuki 主题更新至上游最新版本，并修复了一些问题。"
 tags: ["Mizuki", "Update"]
+published: true
 ---
 
 ## Mizuki 主题更新
