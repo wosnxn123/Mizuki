@@ -11,7 +11,7 @@ category: "岛屿日志"
 author: "绯梦雪 Snowflake"
 licenseName: "CC BY-NC-SA 4.0"
 licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-image: 'https://t.alcy.cc/mizuki'
+image: 'https://t.alcy.cc/moez'
 ---
 
 旅人，午安。
