@@ -23,8 +23,19 @@ export interface TimelineItem {
 	featured?: boolean;
 }
 
-// 示例数据已被清空，您可以在这里添加自己的经历
-export const timelineData: TimelineItem[] = [];
+export const timelineData: TimelineItem[] = [
+	// {
+	// 	id: "example",
+	// 	title: "示例时间线",
+	// 	description: "这是一条示例时间线数据，你可以根据这个格式添加自己的经历。",
+	// 	type: "project",
+	// 	startDate: "2024-01-01",
+	// 	skills: ["Astro", "TypeScript"],
+	// 	icon: "material-symbols:code",
+	// 	color: "#7C3AED",
+	// 	featured: true,
+	// },
+];
 
 // 获取时间线统计信息
 export const getTimelineStats = () => {

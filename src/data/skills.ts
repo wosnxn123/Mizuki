@@ -17,8 +17,19 @@ export interface Skill {
 	color?: string; // 技能卡片主题色
 }
 
-// 示例数据已被清空，您可以在这里添加自己的技能
-export const skillsData: Skill[] = [];
+export const skillsData: Skill[] = [
+	// {
+	// 	id: "example",
+	// 	name: "示例技能",
+	// 	description: "这是一条示例技能数据，你可以根据这个格式添加自己的技能。",
+	// 	icon: "logos:typescript-icon",
+	// 	category: "frontend",
+	// 	level: "beginner",
+	// 	experience: { years: 0, months: 1 },
+	// 	projects: [],
+	// 	color: "#3178C6",
+	// },
+];
 
 // 获取技能统计信息
 export const getSkillStats = () => {
