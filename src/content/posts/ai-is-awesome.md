@@ -9,9 +9,8 @@ category: "技术"
 author: "绯梦雪 Snowflake"
 licenseName: "CC BY-NC-SA 4.0"
 licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+image: 'https://t.alcy.cc/moe'
 ---
-
-![AI](https://t.alcy.cc/moe)
 
 最近我一直在使用 AI，我必须说，它真的太好用了！
 
