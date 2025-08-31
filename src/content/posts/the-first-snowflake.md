@@ -2,8 +2,6 @@
 title: "于此相遇，当第一片雪花飘落"
 description: "你好，偶然间闯入此地的旅人。欢迎来到我的幻想岛屿「绯梦霞间」。"
 published: 2025-08-27
-pubDate: 2025-08-27
-date: 2025-08-27
 pinned: true
 draft: false
 tags: ['初见', '开篇', '幻想', '随笔']
@@ -11,7 +9,6 @@ category: "序章"
 author: "绯梦雪 Snowflake"
 licenseName: "CC BY-NC-SA 4.0"
 licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-image: 'https://t.alcy.cc/moez'
 ---
 
 你好，偶然间闯入此地的旅人。
