@@ -18,17 +18,17 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "绯梦霞间",
+	subtitle: "Snowflake Blog",
 
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 210, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+		hue: 345, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		fixed: true, // 对访问者隐藏主题色选择器
 	},
 
 	translate: {
@@ -49,7 +49,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	banner: {
-		enable: true, // 是否启动Banner壁纸模式
+		enable: false, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
@@ -192,20 +192,25 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
+					name: "umami",
+					url: "https://cloud.umami.is/share/zLM8tL3fGkmgbX1q/blog.raindew.576555.xyz",
+					external: true,
+				},
+				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/wosnxn123",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/367174128",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
 				{
 					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					url: "https://gitee.com/wosnxn123",
 					external: true,
 					icon: "mdi:git",
 				},
@@ -258,28 +263,38 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
-	bio: "The world is big, you have to go and see",
+	name: "绯梦雪Snowflake",
+	bio: "一个漂浮在幻想之海的孤独岛屿。这里没有喧嚣，只有风的声音和星辰的低语。我在这里记录梦的残骸，描绘不存在的风景，分享触动灵魂的旋律与故事。",
 	links: [
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/367174128",
 		},
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://gitee.com/wosnxn123",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/wosnxn123",
+		},
+		{
+            name: 'QQ',
+            icon: 'fa6-brands:qq',
+            url: 'https://qm.qq.com/q/fPoOWUj6J',
+            },
+       {
+            name: 'Email',
+            icon: 'fa6-solid:envelope',
+            url: 'mailto:3467220367@qq.com',
 		},
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://discord.gg/V2jJSuZ6Qv",
 		},
 	],
 };
@@ -299,7 +314,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 export const commentConfig: CommentConfig = {
 	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://twikoo.vercel.app",
+		envId: "https://twikoo.raindew.576555.xyz",
 		lang: "en", // 设置 Twikoo 评论系统语言为英文
 	},
 };
@@ -465,25 +480,25 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: false, // 启用看板娘
+	enable: true, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
-	hiddenOnMobile: true, // 默认在移动设备上隐藏
+	hiddenOnMobile: false, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "欢迎来到绯梦霞间!", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
+			"你在做什么？",
+			"别碰我！",
 			"HENTAI!",
-			"Don't bully me like that!",
+			"别那样欺负我！",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		home: "点击此处返回首页！", // 首页提示
+		skin: ["想看看我的新装扮吗？", "新装扮看起来真棒~"], // 换装提示
+		close: "QWQ 下次见~", // 关闭提示
+		link: "https://github.com/wosnxn123/Mizuki", // 关于链接
 	},
 };
 
@@ -499,9 +514,9 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: false, // 是否显示Umami统计
-	shareURL: "https://us.umami.is/api/share/ABCD1234", //你的分享API,支持自建服务
+	enabled: true, // 是否显示Umami统计
+	shareURL: "https://us.umami.is/api/share/zLM8tL3fGkmgbX1q", //你的分享API,支持自建服务
 	scripts: `
-<script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="65be0c19-ba6a-467c-8435-406f6be46f38"></script>
   `.trim(), //上面填你要插入的Script,不用再去Layout中插入
 } as const;
