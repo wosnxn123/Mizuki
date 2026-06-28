@@ -8,19 +8,19 @@ export const pioConfig: PioConfig = {
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
-	hiddenOnMobile: true, // 默认在移动设备上隐藏
+	hiddenOnMobile: false, // 默认在移动设备上隐藏
 	hideAboutMenu: false, // 隐藏内置 About 菜单按钮
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "欢迎来到绯梦霞间!", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
+			"你在做什么？",
+			"别碰我！",
 			"HENTAI!",
-			"Don't bully me like that!",
+			"别那样欺负我！",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/LyraVoid/Mizuki", // 关于链接
+		home: "点击此处返回首页！", // 首页提示
+		skin: ["想看看我的新装扮吗？", "新装扮看起来真棒~"], // 换装提示
+		close: "QWQ 下次见~", // 关闭提示
+		link: "https://github.com/wosnxn123/Mizuki", // 关于链接
 	},
 };
