@@ -1,0 +1,11 @@
+name = "mizuki"
+compatibility_date = "2025-01-01"
+
+# Workers 静态资源托管配置
+# 部署 Astro 静态构建产物 dist 目录
+[assets]
+directory = "./dist"
+
+# 部署命令: npx wrangler deploy
+# 首次部署会创建名为 mizuki 的 Worker（Workers 名称只能小写）
+# 之后在 Cloudflare Dashboard → Workers → mizuki → 设置 → 触发器 中绑定自定义域名 blog.feimxue.com
